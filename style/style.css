@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    padding: 25px;
+}
+img{
+    width: 300px;
+    height: 360px;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:23px;
+    list-style: none;
+    gap:24px;
+}
+body{
+    background-image: linear-gradient(rgb(20, 16, 23), rgb(60, 27, 74));
+    color: rgb(255, 253, 253);
+}
+
+ul legend{
+    padding:10px;
+    text-align: center;
+    color: black;
+}
+#choco, #more{
+    height: 400px;
+}
+li{
+    border:rgb(36, 23, 42);
+    background-color: aliceblue;
+}
